@@ -1,18 +1,23 @@
 XmlValidator
 ============
 
-you will need libxml to use it so you have to install it by using command:
+Libxml is required to use this plugin
+
 gem install libxml-ruby
 
-if your OS is windows then this command will not work correctly and you have to go to this site:
-http://www.movesonrails.com/articles/2007/10/09/libxml-ruby-and-windows
-and download and unpack http://www.movesonrails.com/files/libxml-ruby-windows.zip file into your ruby directory and after that use command: gem install libxml-ruby
+On windows, download http://www.movesonrails.com/files/libxml-ruby-windows.zip, unzip it into your ruby directory and then try a command above
+
+To install XML Validator, please execute following command
+
+ruby script/plugin install git://github.com/selleo/xml_validator.git
 
 
 Example
 =======
 
-Example goes here.
+XmlValidator.validate_file("C:\my_file.xml", "C:\my_file.xsd")
+
+XmlValidator.validate_string("C:\my_file.xml", string_schema)
 
 
-Copyright (c) 2009 [name of plugin creator], released under the MIT license
+Copyright (c) 2009 Selleo, released under the MIT license
