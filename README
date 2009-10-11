@@ -1,0 +1,18 @@
+XmlValidator
+============
+
+you will need libxml to use it so you have to install it by using command:
+gem install libxml-ruby
+
+if your OS is windows then this command will not work correctly and you have to go to this site:
+http://www.movesonrails.com/articles/2007/10/09/libxml-ruby-and-windows
+and download and unpack http://www.movesonrails.com/files/libxml-ruby-windows.zip file into your ruby directory and after that use command: gem install libxml-ruby
+
+
+Example
+=======
+
+Example goes here.
+
+
+Copyright (c) 2009 [name of plugin creator], released under the MIT license
